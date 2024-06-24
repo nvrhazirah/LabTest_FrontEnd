@@ -1,0 +1,64 @@
+
+body {
+    padding-top: 70px; 
+    padding-bottom: 50px; 
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Employee List */
+#employee-list .list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#employee-list .list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Employee Details */
+#employee-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#employee-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#employee-details strong {
+    color: #007bff;
+}
+
+
+.navbar-fixed-bottom {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar-fixed-bottom .row {
+    margin: 0;
+}
